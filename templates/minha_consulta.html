@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<p>Sua origem é: {{ form.origem.value }}</p>
+<p>Seu destino é: {{ form.destino.value }}</p>
+<p>Sua data de ida é: {{ form.data_ida.value }}</p>
+<p>Sua data de retorno é: {{ form.data_volta.value }}</p>
+<p>Você pesquisou em: {{ form.data_pesquisa.value }}</p>
+<p>Classe Escolhida: {{ form.classe_viagem.value }}</p>
+<p>Informações Extras: {{ form.informacoes.value }}</p>
+<p>Endereço de e-mail fornecido: {{ pessoa_form.email.value }}</p>
+
+{% endblock content %}
+ 
