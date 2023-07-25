@@ -1,6 +1,9 @@
 # Projeto Passagens Forms
 
-# Tecnologias utilizadas
+## Sobre o Projeto
+Projeto desenvolvido durante a formação de desenvolvimento Web com Django da Alura.
+
+## Tecnologias utilizadas
 ## Back end
 - Python
 - Django
